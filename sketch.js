@@ -143,7 +143,7 @@ function spawnCrocodile() {
 
 
 function spawnBird() {
-    if (frameCount % 200 === 0) {
+    if (frameCount % 400 === 0) {
         bird = createSprite(width +100, height - 400, 50, 50)
         bird.addImage(birdImg)
         bird.velocityX = -(13 + score / 100);
